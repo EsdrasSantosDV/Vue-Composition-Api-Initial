@@ -1,5 +1,3 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
@@ -13,5 +11,7 @@ const app = createApp(App)
 //E O ROUTER
 app.use(createPinia())
 app.use(router)
+//ESTAMOS ESPECIFICANDO O ID QUE VIA SER MONTADO[
+// LA NO INDEX HTML TEM O ID LA
 
 app.mount('#app')
